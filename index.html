@@ -10,7 +10,8 @@
 <body>
     <h1>This is the homepage</h1>
     <h2>Unknown Month Placeholder Calendar</h2>
-    <table>
+    <!-- Calendar Table-->
+    <table id="calendar">
         <tr>
             <th>Sunday</th>
             <th>Monday</th>
@@ -66,5 +67,53 @@
             <td></td>
         </tr>
     </table>
+
+    <br>
+
+    <!-- Events this month-->
+    <section>
+    <form id="events">
+        <h1>Monthly Events</h1>
+
+        <ul id="monEvents"></ul>
+
+        <ul class="eventList">
+            <li class="item">Item 1</li>
+
+        </ul>
+
+        <h2>Missing an event? Add it here</h2>
+        <div class='event'></div>
+        <div>
+            <label for="who">Who?</label>
+            <input type="text" id="who">
+        </div>
+
+        <div>
+            <label for="what">What?</label>
+            <input type="text" id="what">
+        </div>
+
+        <div>
+            <label for="when">When?</label>
+            <input type="date" id="when">
+        </div>
+
+        <div>
+            <label for="where">Where?</label>
+            <input type="text" id="where">
+        </div>
+
+        <!-- This div doesnt make any sense (maybe could be used as something funny) -->
+        <div>
+            <label for="why">Why?</label>
+            <input type="text" id="why">
+        </div>
+        <input class="btn" type="submit" value="Submit">
+    </form>
+
+    </section>
+
+    <script src="main.js"></script>
 </body>
 </html>
