@@ -28,3 +28,7 @@ td {
 #events {
     float: left;
 }
+
+.event{
+    color: red;
+}

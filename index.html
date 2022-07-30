@@ -36,7 +36,7 @@
             <td>10</td>
             <td>11</td>
             <td>12</td>
-            <td>13</td>
+            <td class="event">13</td>
             <td>14</td>
         </tr>
         <tr>
@@ -71,49 +71,45 @@
     <br>
 
     <!-- Events this month-->
-    <section>
-    <form id="events">
+    <section class="container">
         <h1>Monthly Events</h1>
 
-        <ul id="monEvents"></ul>
-
-        <ul class="eventList">
+        <ul id="monthlyEvents"></ul>
+        <ul class="items">
             <li class="item">Item 1</li>
-
+            <li class="item">Item 2</li>
+            <li class="item">Item 3</li>
         </ul>
 
         <h2>Missing an event? Add it here</h2>
-        <div class='event'></div>
-        <div>
-            <label for="who">Who?</label>
-            <input type="text" id="who">
-        </div>
-
-        <div>
-            <label for="what">What?</label>
-            <input type="text" id="what">
-        </div>
-
-        <div>
-            <label for="when">When?</label>
-            <input type="date" id="when">
-        </div>
-
-        <div>
-            <label for="where">Where?</label>
-            <input type="text" id="where">
-        </div>
-
-        <!-- This div doesnt make any sense (maybe could be used as something funny) -->
-        <div>
-            <label for="why">Why?</label>
+        <form id="myEvents">
+            <div class='event'></div>
+            <div>
+                <label for="who">Who?</label>
+                <input type="text" id="who">
+            </div>
+            <div>
+                <label for="what">What?</label>
+                <input type="text" id="what">
+            </div>
+            <div>
+                <label for="when">When?</label>
+                <input type="date" id="when">
+            </div>
+            <div>
+                <label for="where">Where?</label>
+                <input type="text" id="where">
+            </div>
+            <!-- This div doesnt make any sense (maybe could be used as something funny) -->
+            <div>
+                <label for="why">Why?</label>
             <input type="text" id="why">
-        </div>
-        <input class="btn" type="submit" value="Submit">
-    </form>
+            </div>
+            <input class="btn" type="submit" value="Submit">
+                </form>
 
     </section>
 
-    <script src="main.js"></script>
+<script src="main.js"></script>
 </body>
 </html>
