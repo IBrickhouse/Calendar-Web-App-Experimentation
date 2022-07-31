@@ -11,18 +11,27 @@ h2 {
 }
 
 ul {
-    list-style: none;
+
   }
+
+.btn {
+    border-radius: 10px;
+    overflow: hidden;
+}
 
 #calendar {
     margin: auto;
     border: 1px solid black;
     background-color: grey;
+    border-radius: 10px;
+    overflow: hidden;
 }
 
 td {
     border: 1px solid black;
     background-color: white;
+    text-align: center;
+    border-radius: 10px;
 }
 
 #events {
@@ -31,4 +40,8 @@ td {
 
 .event{
     color: red;
+}
+
+td:hover {
+    color: green;
 }
